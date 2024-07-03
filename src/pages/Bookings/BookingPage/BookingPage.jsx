@@ -21,7 +21,6 @@ const BookingPage = () => {
     <div className="container mt-4">
       <h2 className="text-center mb-4">Daftar Hasil Booking Lapangan Futsal</h2>
       <BookingList bookings={bookings} handleDelete={handleDeleteBooking} />
-      <button className="btn btn-primary mt-3" onClick={navigateToHome}>Back to Home</button>
     </div>
   );
 };

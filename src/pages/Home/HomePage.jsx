@@ -1,7 +1,7 @@
 import React from 'react';
 import futsalImage from '../../assets/futsal-field.jpg'; 
 
-const Home = () => {
+export default function HomePage() {
   return (
     <div className="container mt-4">
       <div className="row">
@@ -15,7 +15,5 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
-
-export default Home;
+  )
+}

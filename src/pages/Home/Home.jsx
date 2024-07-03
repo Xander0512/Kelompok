@@ -48,15 +48,14 @@ export default function Home() {
 
   return (
     <div className="container-fluid pt-4 px-4 position-relative">
-      <div className="text-center text-primary text-info p-1">
-        <h1>Selamat datang di Pemesanan Lapangan Futsal!</h1>
+      <div className="text-center text-secondary p-1">
+        
       </div>
       {authenticated ? (
         <>
           {!bookingField ? (
             <>
               <FutsalFieldList fields={fields} handleBooking={handleBooking} />
-              <button className="btn btn-primary mt-3" onClick={navigateToBookings}>Lihat Daftar Booking</button>
             </>
           ) : (
             <BookingForm

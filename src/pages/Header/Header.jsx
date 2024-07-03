@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Header = () => {
+export default function Header() {
   return (
-    <header className="navbar navbar-dark bg-dark">
+    <div>
+      <header className="navbar navbar-dark bg-dark">
       <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1">Futsal Booking App</span>
+        <span className="navbar-brand mb-0 h1">Welcome to the Futsal Booking App!</span>
       </div>
     </header>
-  );
-};
-
-export default Header;
+    </div>
+  )
+}
