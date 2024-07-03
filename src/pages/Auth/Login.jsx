@@ -21,6 +21,7 @@ const Login = ({ handleLogin }) => {
 
   return (
     <div className="container">
+      <h3 className='text-center'>Please log in before registering for a booking</h3>
       <div className="row justify-content-center mt-5">
         <div className="col-md-6">
           <div className="card">
